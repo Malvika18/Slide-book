@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Book</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <img src="/images/bell.png" class="menu-icon">
+            <p>Flip Book</p>
+            <img src="/images/menu.png" class="bell-icon">
+            
+        </div>
+
+        <div class="main-text">
+            <h2>Our Book</h2>
+            <small>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ut mollitia animi accusamus 
+            </small>
+            
+        </div>
+
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="/images/Sky.jpg"
+                />
+                <a href="#">Location</a>
+                <div class="info">
+                  <h5>Spain</h5>
+                  <p>Mountain Ranges</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/images/Greens.jpg"
+                />
+                <div class="info">
+                  <h5>Amazon</h5>
+                  <p>Forest</p>
+                  
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/images/Mountains.jpg"
+                />
+                <div class="info">
+                  <h5>Croatia</h5>
+                  <p>Ocean</p>
+                  
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/images/Nature.jpg"
+                />
+                <div class="info">
+                  <h5>Grrece</h5>
+                  <p>Stone Statue</p>
+                  
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/images/Water.jpg"
+                />
+                <div class="info">
+                  <h5>Mountains</h5>
+                  <p>Hills</p>
+                  
+                </div>
+              </div>
+    
+
+            </div>
+            
+            <div class="swiper-scrollbar"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+      
+
+
+
+
+
+
+
+
+        <div class="footer-menu">
+          <a href="https://www.instagram.com/luxuryworldtraveler/">
+          <img src="/images/instagram.png" >
+          </a>
+          
+          <a href="https://telegram.org/">
+            <img src="/images/telegram.png" >
+            </a>
+
+          <a href="https://www.google.com/maps">
+              <img src="/images/pin.png" >
+              </a>
+            
+            
+            <img src="/images/home.png">
+        </div>
+
+
+    </div>
+
+
+    
+        
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 'auto',
+          centeredSlides: true,
+          spaceBetween: 40,
+          slidesPerGroupSkip: 1,
+          grabCursor: true,
+          keyboard: {
+            enabled: true,
+          },
+          breakpoints: {
+            769: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+            },
+          },
+          scrollbar: {
+            el: ".swiper-scrollbar",
+          },
+          
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+
+</body>
+</html>
