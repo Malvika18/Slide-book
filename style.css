@@ -133,3 +133,16 @@ body{
 .swiper-pagination{
     bottom: 0 !important;
 }
+
+@media screen and (min-width: 768px) {
+    .swiper-container mySwiper {
+      padding: 1.5em 0;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .swiper-wrapper {
+      max-width: 930px;
+    }
+  }
+
